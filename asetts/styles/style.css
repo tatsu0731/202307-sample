@@ -49,7 +49,9 @@ h2:after {
     background-image: -webkit-linear-gradient(right, #2af598 0%, #009efd 100%);
     background-image: linear-gradient(to left, #2af598 0%, #009efd 100%);
   }
-
+.scroll_top_margin {
+    scroll-margin-top: 80px;
+}
 /*------ヘッダー--------*/
 header {
     background-color: skyblue;
@@ -330,6 +332,10 @@ footer {
     background-color: white;
     padding: 15px;
     height: 70px;
+    color: #c200fd6d;
+    text-align: center;
+    font-size: bold;
+    font-size: 18px;
 }
 
 /*-----他己紹介----------*/
