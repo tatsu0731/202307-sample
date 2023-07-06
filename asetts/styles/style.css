@@ -1,3 +1,4 @@
+/*--------画像切り替え-------*/
 .image-container:hover .overlay-image {
     opacity: 1;
   } .image-container img {
@@ -53,9 +54,11 @@ h2:after {
 header {
     background-color: skyblue;
     margin-bottom: -1.1px;
-    z-index: 2;
-    position: relative;
+    z-index: 10;
+    /* position: relative; */
     padding-top: 10px;
+    position: sticky;
+    top: 0;
 }
 .header_top {
     display: flex;
@@ -305,44 +308,12 @@ footer {
 }
 
 
-
-/* .circle-container {
-    width: 200px;
-    height: 200px;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -100%);
-    border-radius: 50%;
-    overflow: hidden;
-    z-index: 10;
-  }
-.asd {
-    position: absolute;
-    top:400px;
-}
-  .circle {
-    width: 100%;
-    height: 100%;
-    border: 2px solid black;
-    border-radius: 50%;
-    box-sizing: border-box;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -100%);
-    z-index: 10;
-    
-  } */
-  
-
-
-
 /*---------------他己紹介-------------------*/
 .other_wrapper_contents {
     width: 300px;
     border: 1px solid;
     box-shadow: 6px 6px 6px 0px rgba(0, 0, 0, 0.45);
+    box-shadow: #555;
 }
 .other_interview_question{
     /* padding: 15px; */
@@ -358,7 +329,63 @@ footer {
 .other_interview_answer {
     background-color: white;
     padding: 15px;
-} 
+    height: 70px;
+}
+
+/*-----他己紹介----------*/
+
+#name_h {
+    background-image:url(https://cdn.discordapp.com/attachments/1065265802116341771/1126388573520789544/1D50193A-0688-4681-B2F0-1E81209DDAC0.jpg) ;
+    height: 100px;
+    width: 100%;
+    background-position: 0px ;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#name_h p {
+    position: absolute;
+    font-size: 20px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+#name_s {
+    background-image:url(https://cdn.discordapp.com/attachments/1065265802116341771/1126385749839851560/C8DCBE72-0C6F-41D3-91BB-832D4AF402B6.jpg) ;
+    height: 100px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+    position: relative;
+    background-size: 30% ;
+}
+#name_s p {
+    position: absolute;
+    font-size: 20px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+#neme_r {
+    background-image:url(https://cdn.discordapp.com/attachments/1065265802116341771/1126360301844041818/IMG_3972.jpg) ;
+    height: 100px;
+    width: 100%;
+    background-position: 0px -80px;
+    position: relative;
+}
+#neme_r p {
+    position: absolute;
+    font-size: 20px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
     /*------------circle-------*/
 
 .other_top_column {
@@ -368,7 +395,7 @@ footer {
 }
 
 .other_circle {
-    left: 50%;
+        left: 50%;
         width: 600px;
         height: 600px;
         border: solid 5px;
