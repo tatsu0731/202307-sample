@@ -67,6 +67,7 @@ header {
     margin: 0 30px;
     /* padding-top: 10px; */
     justify-content: space-between;
+    align-items: center;    /* 中央のラインを揃える */
 }
 .header_top_media {
     display: flex;
@@ -86,6 +87,14 @@ header {
     display: flex;
     justify-content: center;
     gap: 40px;
+}
+
+tr {
+    height: 48px;
+}
+
+td {
+    vertical-align: none;
 }
 /*----------HERO----------*/
 
