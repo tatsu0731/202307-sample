@@ -93,9 +93,7 @@ tr {
     height: 48px;
 }
 
-td {
-    vertical-align: none;
-}
+
 /*----------HERO----------*/
 
 .hero {
@@ -362,7 +360,7 @@ footer {
 #name_h p {
     position: absolute;
     font-size: 20px;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     color: white;
@@ -379,7 +377,7 @@ footer {
 #name_s p {
     position: absolute;
     font-size: 20px;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     color: white;
@@ -395,7 +393,7 @@ footer {
 #neme_r p {
     position: absolute;
     font-size: 20px;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     color: white;
