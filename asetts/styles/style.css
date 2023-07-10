@@ -366,13 +366,13 @@ footer {
     color: white;
 }
 #name_s {
-    background-image:url(https://cdn.discordapp.com/attachments/1065265802116341771/1126385749839851560/C8DCBE72-0C6F-41D3-91BB-832D4AF402B6.jpg) ;
+    background-image:url(/asetts/img/saki.jpg) ;
     height: 100px;
     width: 100%;
     background-repeat: no-repeat;
     background-position:center;
     position: relative;
-    background-size: 30% ;
+    background-size: 100% ;
 }
 #name_s p {
     position: absolute;
